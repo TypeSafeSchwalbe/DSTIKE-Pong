@@ -1,13 +1,13 @@
 # DSTIKE-Pong
 
-A port of singleplayer Pong for the ESP8266. Specifically developed to work on the DSTIKE Deauther watch.
+A port of singleplayer Pong developed to work on the DSTIKE Deauther watch.
 
 ### Building
 
 This project can be built using PlatformIO.
-Run the following to install the firmware on a board (in my case connected via USB):
+If you have the PlatformIO CLI installed, run the following command with full priviliges (admin cmd instance, `sudo`, ...), to install the firmware on a watch connected via USB:
 ```
-sudo platformio run -t upload
+platformio run -t upload
 ```
 
 ### Screenshot
